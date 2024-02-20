@@ -17,4 +17,4 @@ class TestCaseTest(TestCase.TestCase):
 
 if __name__ == '__main__':
     TestCaseTest("testRunning").testRunning()
-    TestCaseTest("TestSetUp").run()
+    TestCaseTest("testSetUp").run()
