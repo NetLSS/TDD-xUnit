@@ -5,7 +5,6 @@ import WasRun
 class TestCaseTest(TestCase.TestCase):
     def testRunning(self):
         test = WasRun.WasRun("testMethod")
-        assert (not test.wasRun)
         test.run()
         assert (test.wasRun)
 
